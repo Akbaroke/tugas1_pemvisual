@@ -1,0 +1,122 @@
+object Form1: TForm1
+  Left = 1268
+  Height = 407
+  Top = 126
+  Width = 454
+  Caption = 'Form1'
+  ClientHeight = 407
+  ClientWidth = 454
+  LCLVersion = '3.0.0.1'
+  object Label1: TLabel
+    Left = 184
+    Height = 25
+    Top = 56
+    Width = 104
+    Caption = 'Perhitungan'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -19
+    Font.Name = 'Segoe UI Semibold'
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    Font.Style = [fsBold]
+    ParentFont = False
+  end
+  object edtDeret: TEdit
+    Left = 104
+    Height = 29
+    Top = 128
+    Width = 160
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 0
+  end
+  object btnHitung: TButton
+    Left = 288
+    Height = 30
+    Top = 128
+    Width = 91
+    Caption = 'Hitung'
+    OnClick = btnHitungClick
+    TabOrder = 1
+  end
+  object Label2: TLabel
+    Left = 72
+    Height = 21
+    Top = 128
+    Width = 12
+    Caption = 'N'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object GroupBox1: TGroupBox
+    Left = 64
+    Height = 120
+    Top = 208
+    Width = 329
+    Caption = 'Hasil'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+    TabOrder = 2
+  end
+  object edtFaktorial: TEdit
+    Left = 192
+    Height = 29
+    Top = 240
+    Width = 160
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    NumbersOnly = True
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 3
+  end
+  object Label3: TLabel
+    Left = 104
+    Height = 21
+    Top = 248
+    Width = 59
+    Caption = 'Faktorial'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object Label4: TLabel
+    Left = 104
+    Height = 21
+    Top = 296
+    Width = 50
+    Caption = 'Jumlah'
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    ParentFont = False
+  end
+  object edtJumlah: TEdit
+    Left = 192
+    Height = 29
+    Top = 288
+    Width = 160
+    Font.CharSet = ANSI_CHARSET
+    Font.Height = -16
+    Font.Pitch = fpVariable
+    Font.Quality = fqDraft
+    NumbersOnly = True
+    ParentFont = False
+    ReadOnly = True
+    TabOrder = 4
+  end
+end
