@@ -1,4 +1,4 @@
-## TUGAS 1 (Pemprograman Visual)
+## TUGAS 2 (Pemprograman Visual)
 
 ```
 Nama   : Muhammad Akbar
